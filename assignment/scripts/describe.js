@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make two variables; secret and code. Code has a set value of 123 while secret is valued on a conditional statement.
+// If code variable equals 123 secret will have a set value of 'super' and code will equal code original value multiplied by 2.
+// We set a second if statement: If code variable is greater than 250 secret will have a set value of 'duper'.
+// Since our first statement is true we log 'super' for secret.
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We have three variables set. isStudent=true; age = 34; and zip = 55407
+// We see if isStudent equals true and zip is greater than 80000 if both these statements are true we log 'You're a student on the West Coast!'
+// Then we see if isStudents equals true and we log 'Welcome to Prime!'
+// If none of the if statements are a match we log 'How about the weather?'
+// The console logs 'Welcome to Prime!'
 
 //CODE
 /*
