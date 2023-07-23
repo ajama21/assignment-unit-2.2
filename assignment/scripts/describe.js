@@ -29,7 +29,7 @@ if (number >= 2) {
 // We make a variable called name and set it's value to 'Dane'
 // We check if the name variable is 'Mary' so we console.log 'Hi Mary' if name is set to Mary.
 // If name variable is not set to 'Mary' we console.log 'How do you do?' 
-// Since name variable is not set to 'Mary' we should have an output of 'How do you do?' in our console.
+// Since name variable is not set to 'Mary' we should have an output of 'How do you do?' in our console log.
 
 //CODE
 /*
@@ -71,10 +71,10 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // We have three variables set. isStudent=true; age = 34; and zip = 55407
-// We see if isStudent equals true and zip is greater than 80000 if both these statements are true we log 'You're a student on the West Coast!'
-// Then we see if isStudents equals true and we log 'Welcome to Prime!'
+// We see if isStudent equals true and zip is greater than 80000 if both these statements are true we console.log 'You're a student on the West Coast!'
+// Then we see if isStudents equals true and we console.log 'Welcome to Prime!'
 // If none of the if statements are a match we log 'How about the weather?'
-// The console logs 'Welcome to Prime!'
+// The console.logs 'Welcome to Prime!'
 
 //CODE
 /*
@@ -131,20 +131,23 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX - colorOne = 'blue' and color = 'red'. Mix is set to true, so colorOne in the if statement should have a value of 'purple'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
-  colorOne = 'purple';
+  colorOne = 'purple'; 
 }
-*/
 
+*/
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
 /*
+// FIX - Use of || is incorrect in this statement. && is preferred in the 'and' comparision.
 let temp = 40;
 const time = 4;
 
@@ -158,6 +161,9 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+// FIX - change condition from (minAge <= age) to (age >= minAge). 
+// Also we switch the console.log statement our output would log (enter) since our statement is true.
+
 let age = 21;
 const minAge = 21;
 
