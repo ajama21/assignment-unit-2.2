@@ -72,8 +72,9 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // We have three variables set. isStudent=true; age = 34; and zip = 55407
 // We see if isStudent equals true and zip is greater than 80000 if both these statements are true we console.log 'You're a student on the West Coast!'
+// We also check if student is false and age is less than 30. If true, we console.log 'What are your hobbies?'
 // Then we see if isStudents equals true and we console.log 'Welcome to Prime!'
-// If none of the if statements are a match we log 'How about the weather?'
+// If none of the if statements are a match we log , 'How about the weather?'
 // The console.logs 'Welcome to Prime!'
 
 //CODE
@@ -132,7 +133,7 @@ if (number >= 2) {
 
 /*
 
-// FIX - colorOne = 'blue' and color = 'red'. Mix is set to true, so colorOne in the if statement should have a value of 'purple'.
+// FIX - colorOne = 'blue' and color = 'red'. Mix is set to true, so colorOne and colorTwo in the if statement should have a value of 'purple'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -161,8 +162,7 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
-// FIX - change condition from (minAge <= age) to (age >= minAge). 
-// Also we switch the console.log statement our output would log (enter) since our statement is true.
+// FIX - we switch the console.log statement our output would log (enter) since our statement is true.
 
 let age = 21;
 const minAge = 21;
